@@ -2,13 +2,13 @@
 
 import java.util.Scanner;
 
-public class ExemploCase2 {
+public class Ex1 {
 
 	public static void main(String[] args) {
 	Scanner sc = new Scanner (System.in);
-	
+	//variável para cada moeda, e varriável semanas
 	int umCent, cincoCent, dezCent, vinteCincoCent, cinquentaCent, umReal, semanas;
-		
+	//Quantidade de moedas será armazenada na respectiva variável	
 	System.out.println("Insira a quantidade de moedas que você colocou no cofre, na respectiva ordem:");
 	System.out.println("De 1 centavo: ");
 	umCent = sc.nextInt();
