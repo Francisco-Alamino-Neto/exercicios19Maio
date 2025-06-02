@@ -3,7 +3,7 @@ package exercicios;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ex2 {
+public class Ex2 {
 
 	public static void main(String[] args) {
 		String[] opcoes = {"Pedra", "Papel", "Tesoura", "Lagarto", "Spock"};
