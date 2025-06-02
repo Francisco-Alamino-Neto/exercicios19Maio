@@ -30,8 +30,8 @@ public class Ex1 {
 	
 	double resultado = (0.01 * umCent) + (0.05 * cincoCent) + (0.10 * dezCent) + (0.25 * vinteCincoCent) + (0.50 * cinquentaCent) + (1 * umReal);
 	
-	double quantofalta = 100 - resultado;
-	System.out.println("Você juntou " + resultado + " reais, falta " + quantofalta + " reais para alcançar 100 reais.");
+	double quantoFalta = 100 - resultado;
+	System.out.println("Você juntou " + resultado + " reais, falta " + quantoFalta + " reais para alcançar 100 reais.");
 	
 	
 	  double acumulado = resultado;
